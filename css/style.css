@@ -168,24 +168,32 @@ img {
 }
 
 @media screen and (max-width:680px) {
+
+	h3 {
+		padding-top: 50px;
+	}
+
+	.ipad-container img {
+		left: 3px;
+	}
+
 	.ipad-container .ipad-overlay {
-		left: 0;
-		margin-left: 0;
-		width: 98%;
+		left: .5%;
+		width: 99%;
 		margin: 0 auto;
 		background-size: contain;
 	}
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:520px) {
+
+	.ipad-container img {
+		padding-bottom: 45px;
+	}
+
 	.ipad-container .ipad-overlay {
-		position: absolute;
-		background: url(../img/ipad.png) 200px 400px no-repeat;
-		top: 0;
-		left: 50%;
-		margin-left: -335px;
-		width: 400px;
-		height: 200px;
-		z-index: 21;		
+		left: -1px;
+		width: 99%;
+		margin-left: .75%;
 	}
 }
