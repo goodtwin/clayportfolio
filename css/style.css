@@ -21,7 +21,6 @@ body {
 #logo {
 	padding-top: 11px;
 	width: 98px;
-
 }
 
 a {
@@ -40,6 +39,8 @@ a:hover {
 a:focus {
 	color: #a39161;
 }
+
+
 
 .about-container {
 	background-color: #2d2d2d;
