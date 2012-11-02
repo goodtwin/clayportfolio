@@ -79,7 +79,7 @@ h1 {
 	font-style: normal;
 	color: #fff;
 	line-height: .7em;
-	margin: 0 auto;
+	margin: 0;
 	padding-top: 150px;
 	padding-bottom: 20px;
 	text-align: left;
@@ -114,6 +114,7 @@ h1 {
 	padding-left: 7px;
 	width: 500px;
 	margin: 0;
+	max-width: 90%;
 }
 
 .goodtwin {
@@ -253,6 +254,10 @@ img {
 
 @media screen and (max-width:520px) {
 
+	h1 {
+		font-size: 10em;
+	}
+
 	.ipad-container img {
 		padding-bottom: 45px;
 	}
@@ -261,5 +266,11 @@ img {
 		left: -1px;
 		width: 99%;
 		margin-left: .75%;
+	}
+}
+
+@media screen and (max-width:420px) {
+	h1 {
+		font-size: 8em;
 	}
 }
