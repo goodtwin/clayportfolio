@@ -1,0 +1,24 @@
+{
+  "name": "static",
+  "private": true,
+  "version": "0.0.0",
+  "description": "clay static portfolio site",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt-rsync": "~0.1.1",
+    "grunt-sass": "~0.6.1",
+    "grunt-cli": "*",
+    "matchdep": "~0.1.1",
+    "bower": "~1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodtwin/clayportfolio.git"
+  },
+  "author": {
+    "name": "Clay Wiese",
+    "url": "http://www.claywiese.com"
+  },
+  "license": ""
+}
